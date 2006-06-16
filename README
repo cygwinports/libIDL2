@@ -1,0 +1,95 @@
+libIDL2
+------------------------------------------
+libIDL is a library licensed under the GNU LGPL for creating trees of
+CORBA Interface Definition Language (IDL) files, which is a
+specification for defining portable interfaces.  libIDL was initially
+written for ORBit (the ORB from the GNOME project, and the primary
+means of libIDL distribution).  However, the functionality was
+designed to be as reusable and portable as possible.
+
+Runtime requirements:
+  cygwin-1.5.18-1
+  glib2-runtime-2.4.8-1
+  libiconv2-1.9.2-1
+  libintl3-0.14.1-1
+
+Build requirements:
+  cygwin-1.5.18-1
+  autoconf2.5-2.59-1
+  automake1.9-1.9.5-2
+  binutils-20050610-1
+  bison-20030307-1
+  flex-2.5.4a-3
+  gawk-3.1.5-1
+  gcc-core-3.4.4-1
+  libtool1.5-1.5.18-1
+  make-3.80-1
+  sed-4.1.4-1
+
+  gettext-0.14.1-1
+  glib2-devel-2.4.8-1
+  libiconv-1.9.2-1
+
+Canonical download:
+  http://ftp.gnome.org/pub/GNOME/sources/libIDL/
+
+------------------------------------
+
+Build instructions:
+  unpack libIDL2-0.8.6-1-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  ./libIDL-0.8.6-1.sh all
+
+This will create:
+  /usr/src/libIDL2-0.8.6-1-src.tar.bz2
+  /usr/src/libIDL2-0.8.6-1.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /etc/postinstall/libIDL2.sh
+  /usr/bin/cygIDL-2-0.dll
+  /usr/bin/libIDL-config-2
+  /usr/include/libIDL-2.0/libIDL/IDL.h
+  /usr/lib/libIDL-2.dll.a
+  /usr/lib/libIDL-2.la
+  /usr/lib/pkgconfig/libIDL-2.0.pc
+  /usr/share/doc/Cygwin/libIDL2-0.8.6.README
+  /usr/share/doc/libIDL2-0.8.6/AUTHORS
+  /usr/share/doc/libIDL2-0.8.6/BUGS
+  /usr/share/doc/libIDL2-0.8.6/ChangeLog
+  /usr/share/doc/libIDL2-0.8.6/COPYING
+  /usr/share/doc/libIDL2-0.8.6/HACKING
+  /usr/share/doc/libIDL2-0.8.6/INSTALL
+  /usr/share/doc/libIDL2-0.8.6/MAINTAINERS
+  /usr/share/doc/libIDL2-0.8.6/NEWS
+  /usr/share/doc/libIDL2-0.8.6/README
+  /usr/share/info/libIDL2.info.gz
+
+------------------
+
+Port Notes:
+
+----- version 0.8.6-1 -----
+Upstream version bump.
+
+----- version 0.8.5-1 -----
+Version bump; package now called libIDL2 to make space for the libIDL
+included in ORBit-0.5.
+
+The libIDL.m4 aclocal macro file is no longer included, as it conficts 
+with the same file from the libIDL included in ORBit-0.5.
+pkg-config should be used instead.
+
+----- version 0.8.3-2 -----
+This build includes libIDL.m4, with the fix for the underquoted aclocal 
+warning; this is the equivalent of upstream 0.8.4.
+
+----- version 0.8.3-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:  http://cygwin-ports.sourceforge.net/
