@@ -8,21 +8,22 @@ means of libIDL distribution).  However, the functionality was
 designed to be as reusable and portable as possible.
 
 Runtime requirements:
-  cygwin-1.5.21-1
-  glib2-2.10.3-1
+  cygwin-1.5.24-2
+  glib2-2.12.9-1
 
 Build requirements:
 (besides corresponding devel packages)
-  cygwin-1.5.21-1
-  autoconf2.5-2.59-2
-  automake1.9-1.9.6-1
-  binutils-20060709-1
-  cygport-0.2.4-1
-  gawk-3.1.5-2
-  gcc-core-3.4.4-1
-  libtool1.5-1.5.21-1
-  make-3.80-1
-  sed-4.1.5-1
+  cygwin-1.5.24-2
+  autoconf2.5-2.61-1
+  automake1.9-1.9.6-2
+  binutils-20060817-1
+  cygport-0.2.10-1
+  gawk-3.1.5-4
+  gcc-core-3.4.4-3
+  libtool1.5-1.5.23a-2
+  make-3.81-1
+  pkg-config-0.21-1
+  sed-4.1.5-2
 
 Canonical download:
   http://ftp.gnome.org/pub/GNOME/sources/libIDL/
@@ -30,16 +31,16 @@ Canonical download:
 ------------------------------------
 
 Build instructions:
-  unpack libIDL2-0.8.7-X-src.tar.bz2
+  unpack libIDL2-0.8.8-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./libIDL2-0.8.7-X.cygport all
+  cygport ./libIDL2-0.8.8-X.cygport all
 
 This will create:
-  /usr/src/libIDL2-0.8.7-X-src.tar.bz2
-  /usr/src/libIDL2-0.8.7-X.tar.bz2
-  /usr/src/libIDL2-devel-0.8.7-X.tar.bz2
+  /usr/src/libIDL2-0.8.8-X-src.tar.bz2
+  /usr/src/libIDL2-0.8.8-X.tar.bz2
+  /usr/src/libIDL2-devel-0.8.8-X.tar.bz2
 
 -------------------------------------------
 
@@ -70,6 +71,9 @@ Files included in the development package:
 ------------------
 
 Port Notes:
+
+----- version 0.8.8-1 -----
+Version bump.
 
 ----- version 0.8.7-1 -----
 Version bump.
