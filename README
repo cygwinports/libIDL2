@@ -9,15 +9,15 @@ designed to be as reusable and portable as possible.
 
 Runtime requirements:
   cygwin-1.5.24-2
-  glib2-2.12.9-1
+  glib2-2.12.13-1
 
 Build requirements:
 (besides corresponding devel packages)
   cygwin-1.5.24-2
   autoconf2.5-2.61-1
-  automake1.9-1.9.6-2
+  automake1.7-1.7.9-3
   binutils-20060817-1
-  cygport-0.2.10-1
+  cygport-0.3.5-1
   gawk-3.1.5-4
   gcc-core-3.4.4-3
   libtool1.5-1.5.23a-2
@@ -31,32 +31,32 @@ Canonical download:
 ------------------------------------
 
 Build instructions:
-  unpack libIDL2-0.8.8-X-src.tar.bz2
+  unpack libIDL2-0.8.9-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./libIDL2-0.8.8-X.cygport all
+  cygport ./libIDL2-0.8.9-X.cygport all
 
 This will create:
-  /usr/src/libIDL2-0.8.8-X-src.tar.bz2
-  /usr/src/libIDL2-0.8.8-X.tar.bz2
-  /usr/src/libIDL2-devel-0.8.8-X.tar.bz2
+  /usr/src/libIDL2-0.8.9-X-src.tar.bz2
+  /usr/src/libIDL2-0.8.9-X.tar.bz2
+  /usr/src/libIDL2-devel-0.8.9-X.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary package:
 
   /usr/bin/cygIDL-2-0.dll
-  /usr/share/doc/Cygwin/libIDL2-0.8.6.README
-  /usr/share/doc/libIDL2-0.8.6/AUTHORS
-  /usr/share/doc/libIDL2-0.8.6/BUGS
-  /usr/share/doc/libIDL2-0.8.6/ChangeLog
-  /usr/share/doc/libIDL2-0.8.6/COPYING
-  /usr/share/doc/libIDL2-0.8.6/HACKING
-  /usr/share/doc/libIDL2-0.8.6/INSTALL
-  /usr/share/doc/libIDL2-0.8.6/MAINTAINERS
-  /usr/share/doc/libIDL2-0.8.6/NEWS
-  /usr/share/doc/libIDL2-0.8.6/README
+  /usr/share/doc/Cygwin/libIDL2-0.8.9.README
+  /usr/share/doc/libIDL2-0.8.9/AUTHORS
+  /usr/share/doc/libIDL2-0.8.9/BUGS
+  /usr/share/doc/libIDL2-0.8.9/ChangeLog
+  /usr/share/doc/libIDL2-0.8.9/COPYING
+  /usr/share/doc/libIDL2-0.8.9/HACKING
+  /usr/share/doc/libIDL2-0.8.9/INSTALL
+  /usr/share/doc/libIDL2-0.8.9/MAINTAINERS
+  /usr/share/doc/libIDL2-0.8.9/NEWS
+  /usr/share/doc/libIDL2-0.8.9/README
 
 Files included in the development package:
 
@@ -71,6 +71,9 @@ Files included in the development package:
 ------------------
 
 Port Notes:
+
+----- version 0.8.9-1 -----
+Version bump.
 
 ----- version 0.8.8-1 -----
 Version bump.
