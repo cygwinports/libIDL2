@@ -8,19 +8,19 @@ means of libIDL distribution).  However, the functionality was
 designed to be as reusable and portable as possible.
 
 Runtime requirements:
-  cygwin-1.5.24-2
-  glib2-2.12.13-1
+  cygwin-1.5.25-11
+  glib2-2.16.3-1
 
 Build requirements:
 (besides corresponding devel packages)
-  cygwin-1.5.24-2
   autoconf2.5-2.61-1
-  automake1.7-1.7.9-3
+  automake1.10-1.10.1-1
   binutils-20060817-1
-  cygport-0.3.5-1
-  gawk-3.1.5-4
+  cygport-0.3.11-1
+  gawk-3.1.6-1
   gcc-core-3.4.4-3
-  libtool1.5-1.5.23a-2
+  gnome-common-2.20.0-2
+  libtool-2.2.2-2
   make-3.81-1
   pkg-config-0.21-1
   sed-4.1.5-2
@@ -31,35 +31,34 @@ Canonical download:
 ------------------------------------
 
 Build instructions:
-  unpack libIDL2-0.8.9-X-src.tar.bz2
+  unpack libIDL2-0.8.10-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./libIDL2-0.8.9-X.cygport all
+  cygport ./libIDL2-0.8.10-X.cygport all
 
 This will create:
-  /usr/src/libIDL2-0.8.9-X-src.tar.bz2
-  /usr/src/libIDL2-0.8.9-X.tar.bz2
-  /usr/src/libIDL2-devel-0.8.9-X.tar.bz2
+  /usr/src/libIDL2-0.8.10-X-src.tar.bz2
+  /usr/src/libIDL2-0.8.10-X.tar.bz2
+  /usr/src/libIDL2-devel-0.8.10-X.tar.bz2
 
 -------------------------------------------
 
-Files included in the binary package:
+Files included in the binary packages:
 
+(libIDL2)
   /usr/bin/cygIDL-2-0.dll
-  /usr/share/doc/Cygwin/libIDL2-0.8.9.README
-  /usr/share/doc/libIDL2-0.8.9/AUTHORS
-  /usr/share/doc/libIDL2-0.8.9/BUGS
-  /usr/share/doc/libIDL2-0.8.9/ChangeLog
-  /usr/share/doc/libIDL2-0.8.9/COPYING
-  /usr/share/doc/libIDL2-0.8.9/HACKING
-  /usr/share/doc/libIDL2-0.8.9/INSTALL
-  /usr/share/doc/libIDL2-0.8.9/MAINTAINERS
-  /usr/share/doc/libIDL2-0.8.9/NEWS
-  /usr/share/doc/libIDL2-0.8.9/README
+  /usr/share/doc/libIDL2-0.8.10/AUTHORS
+  /usr/share/doc/libIDL2-0.8.10/BUGS
+  /usr/share/doc/libIDL2-0.8.10/ChangeLog
+  /usr/share/doc/libIDL2-0.8.10/COPYING
+  /usr/share/doc/libIDL2-0.8.10/HACKING
+  /usr/share/doc/libIDL2-0.8.10/INSTALL
+  /usr/share/doc/libIDL2-0.8.10/MAINTAINERS
+  /usr/share/doc/libIDL2-0.8.10/NEWS
+  /usr/share/doc/libIDL2-0.8.10/README
 
-Files included in the development package:
-
+(libIDL2-devel)
   /etc/postinstall/libIDL2.sh
   /usr/bin/libIDL-config-2
   /usr/include/libIDL-2.0/libIDL/IDL.h
@@ -71,6 +70,9 @@ Files included in the development package:
 ------------------
 
 Port Notes:
+
+----- version 0.8.10-1 -----
+Version bump.
 
 ----- version 0.8.9-1 -----
 Version bump.

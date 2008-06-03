@@ -1,0 +1,12 @@
+ORIG_PN=${PN%2}
+
+inherit gnome2
+
+DESCRIPTION="CORBA Interface Definition Language library"
+
+PKG_NAMES="${PN} ${PN}-devel"
+PKG_HINTS='setup devel'
+PKG_CONTENTS[0]='usr/bin/*.dll usr/share/doc/'
+PKG_CONTENTS[1]='etc/ usr/bin/*-config* usr/include/ usr/lib/ usr/share/info/'
+
+DIFF_EXCLUDES="Makefile.msc"
