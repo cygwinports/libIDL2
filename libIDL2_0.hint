@@ -1,7 +1,7 @@
-category: Libs Gnome
-requires: cygwin libIDL2 glib2-devel
+category: Gnome
+requires: cygwin libglib2.0_0
 external-source: libIDL2
-sdesc: "CORBA Interface Definition Language file library (v2 development)"
+sdesc: "CORBA Interface Definition Language file library (v2 runtime)"
 ldesc: "libIDL is a library licensed under the GNU LGPL for creating 
 trees of CORBA Interface Definition Language (IDL) files, which is a
 specification for defining portable interfaces.  libIDL was initially

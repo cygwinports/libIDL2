@@ -1,0 +1,9 @@
+category: Gnome
+requires: libIDL2_0
+sdesc: "CORBA Interface Definition Language file library (sources)"
+ldesc: "libIDL is a library licensed under the GNU LGPL for creating 
+trees of CORBA Interface Definition Language (IDL) files, which is a
+specification for defining portable interfaces.  libIDL was initially
+written for ORBit (the ORB from the GNOME project, and the primary
+means of libIDL distribution).  However, the functionality was
+designed to be as reusable and portable as possible."
