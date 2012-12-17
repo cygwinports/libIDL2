@@ -1,0 +1,20 @@
+ORIG_PN="libIDL"
+inherit gnome2
+
+NAME="libIDL2"
+VERSION=0.8.14
+RELEASE=2
+CATEGORY="GNOME"
+SUMMARY="CORBA Interface Definition Language file library"
+DESCRIPTION="libIDL is a library licensed under the GNU LGPL for creating trees
+of CORBA Interface Definition Language (IDL) files, which is a specification
+for defining portable interfaces.  libIDL was initially written for ORBit (the
+ORB from the GNOME project, and the primary means of libIDL distribution).
+However, the functionality was designed to be as reusable and portable as
+possible."
+
+PKG_NAMES="${PN}_0 ${PN}-devel"
+libIDL2_0_CONTENTS="usr/bin/cygIDL-2-0.dll usr/share/doc/"
+libIDL2_devel_CONTENTS='usr/bin/*-config* usr/include/ usr/lib/ usr/share/info/'
+
+DIFF_EXCLUDES="Makefile.msc"
